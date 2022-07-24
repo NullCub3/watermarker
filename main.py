@@ -1,6 +1,6 @@
 
 import yaml
-import pathlib
+from pathlib import Path
 from PIL import Image
 
 with open("config.yml", "r") as f:
@@ -22,5 +22,8 @@ image1 = Image.open('images/image1.jpg')
 image2 = Image.open('images/image2.png')
 
 result = merge(image1, image2)
-result.save('imageresult')
+# result.save('images/imageresult.png')
+
+print(Path.cwd())
+result.show()
 
