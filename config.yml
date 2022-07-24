@@ -1,1 +1,34 @@
+version: 0
+
 photos_dir: C:\Users\NullCube\Pictures\SimpleCreative
+
+folders:
+  WIDE: To Process - Wide
+  TALL: To Process - Tall
+  SQUARE: To Process - Square
+  WATERMARK: Watermark Files
+  FINISHED: Finished
+
+watermarks:
+  WIDE:
+    LIGHT: SCQ-Mark-White-Wide-1080.png
+    DARK: SCQ-Mark-Grey-Wide-1080.png
+  TALL:
+    LIGHT: SCQ-Mark-White-Tall-720.png
+    DARK: SCQ-Mark-Grey-Tall-720.png
+  SQUARE:
+    LIGHT: SCQ-Mark-White-Square-1080.png
+    DARK: SCQ-Mark-Grey-Square-1080.png
+
+dimensions:
+  WIDE: [1080, 720]
+  TALL: [720, 1080]
+  SQUARE: [1080, 1080]
+
+
+#  WIDE_LIGHT: SCQ-Mark-White-Wide-1080.png
+#  WIDE_DARK: SCQ-Mark-Grey-Wide-1080.png
+#  TALL_LIGHT: SCQ-Mark-White-Tall-720.png
+#  TALL_DARK: SCQ-Mark-Grey-Tall-720.png
+#  SQUARE_LIGHT: SCQ-Mark-White-Square-1080.png
+#  SQUARE_DARK: SCQ-Mark-Grey-Square-1080.png
