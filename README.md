@@ -1,2 +1,2 @@
 # watermarker
- A simple, Python (I hope) based method of automatically adding watermarks to photos provided in a filesystem
+ A simple, (I hope) python-based program to automatically add watermarks to photos provided in a filesystem

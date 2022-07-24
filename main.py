@@ -18,12 +18,20 @@ def merge(im1, im2):
     return im
 
 
-image1 = Image.open('images/image1.jpg')
-image2 = Image.open('images/image2.png')
+def setup():
+    image1 = Image.open('images/image1.jpg')
+    image2 = Image.open('images/image2.png')
 
-result = merge(image1, image2)
-# result.save('images/imageresult.png')
+    result = merge(image1, image2)
+    # result.save('images/imageresult.png')
 
-print(Path.cwd())
-result.show()
+    print(Path.cwd())
+    result.show()
 
+
+# Start program:
+setup()
+
+# Loop program:
+while True:
+    exit()
