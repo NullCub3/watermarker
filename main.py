@@ -22,6 +22,7 @@ def merge(im1, im2):
 
 
 if __name__ == "__main__":
+    logging.info(" Working in: " + str(photos_path))
 
     # Check to make sure that all the folders are present in the photos directory
     for x in config["folders"]:
@@ -37,9 +38,8 @@ if __name__ == "__main__":
         for y in config["watermarks"][x]:
             checkFileDir = water_path / config["watermarks"][x][y]
             if checkFileDir.is_file():
-                logging.debug(str(y) + " watermark file was found!")
+                logging.debug(str(x) + "_" + str(y) + " watermark file was found!")
             else:
-                raise Exception("File Error, '" + str(y) + "' watermark does not exist")
+                raise Exception("File Error, '" + str(x) + "_" + str(y) + "' watermark does not exist")
 
-    # Loop program:
-    # while True:
+    logging.info("File checks complete!")
