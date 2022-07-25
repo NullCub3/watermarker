@@ -26,4 +26,3 @@ dimensions:
   WIDE: [1080, 720]
   TALL: [720, 1080]
   SQUARE: [1080, 1080]
-  
