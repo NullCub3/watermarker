@@ -1,9 +1,8 @@
 version: 0
 # Possible log levels: CRITICAL, ERROR, WARNING, INFO, DEBUG, NOTSET
 logging_level: DEBUG
-
-
 photos_dir: C:\Users\NullCube\Pictures\SimpleCreative
+sync_delay: 20
 
 folders:
   WIDE: To Process - Wide
@@ -27,11 +26,3 @@ dimensions:
   WIDE: [1080, 720]
   TALL: [720, 1080]
   SQUARE: [1080, 1080]
-
-
-#  WIDE_LIGHT: SCQ-Mark-White-Wide-1080.png
-#  WIDE_DARK: SCQ-Mark-Grey-Wide-1080.png
-#  TALL_LIGHT: SCQ-Mark-White-Tall-720.png
-#  TALL_DARK: SCQ-Mark-Grey-Tall-720.png
-#  SQUARE_LIGHT: SCQ-Mark-White-Square-1080.png
-#  SQUARE_DARK: SCQ-Mark-Grey-Square-1080.png
